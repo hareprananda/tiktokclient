@@ -1,0 +1,19 @@
+.videoSidebar {
+  position: absolute;
+  width: 50px;
+  align-items: center;
+  top: 0;
+  height: calc(100% - 140px);
+  right: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.videoSidebar > * {
+  margin-bottom: 30px;
+}
+.videoSidebar p {
+  text-align: center;
+  margin: 0px;
+}
